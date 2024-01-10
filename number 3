@@ -1,0 +1,12 @@
+alp='0123456789'
+k=0
+for a in alp:
+    for b in alp:
+        for c in alp:
+            for d in alp:
+                for e in alp:
+                    for f in alp:
+                        w=a+b+c+d+e+f
+                        if w[0]!='0' and w.count('777')>=1 and w.count('7777')==0:
+                            k+=1
+print(k)
