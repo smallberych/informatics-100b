@@ -1,0 +1,12 @@
+w='0123456789'
+k=0
+for a in w:
+    for b in w:
+        for c in w:
+            for d in w:
+                for e in w:
+                    for f in w:
+                        n=a+b+c+d+e+f
+                        if (n[4:6]=='00' or n[4:6]=='66') and (n.count('1')==2):
+                            k+=1
+print(k)
