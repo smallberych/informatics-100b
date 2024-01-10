@@ -1,0 +1,11 @@
+alp='ЕЙКОЩ'
+k=0
+for a in alp:
+    for b in alp:
+        for c in alp:
+            for d in alp:
+                for e in alp:
+                    w=a+b+c+d+e
+                    k+=1
+                    if w=='КОЩЕЙ':
+                        print(k)
